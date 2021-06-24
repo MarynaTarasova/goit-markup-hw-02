@@ -4,8 +4,9 @@
     --accent-color: #2196F3;
     --second-accent-color: #FFFFFF;
     --main-section-footer-background: #2F303A;
-    --third-main-color: #757575;
+    --third-accent-color: #757575;
     --team-background: #F5F4FA;
+    --footer-tel-mail: rgba(255, 255, 255, 0.6);
 
 }
 
@@ -27,7 +28,7 @@ body {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
-    line-height: 1,19;
+    line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--main-color);
 }
@@ -40,9 +41,9 @@ body {
     font-family: 'Roboto', sans-serif;;
     font-weight: 500;
     font-size: 14px;
-    line-height: 1,14;
+    line-height: 1.14;
     letter-spacing: 0.02em;
-    color: #212121;
+    color: var(--main-color);
 }
 
 .menu-item-link:hover,
@@ -58,9 +59,9 @@ body {
     font-family: 'Roboto', sans-serif;;
     font-weight: 500;
     font-size: 14px;
-    line-height: 1,14;
+    line-height: 1.14;
     letter-spacing: 0.02em;
-    color: #757575;
+    color: var(--third-accent-color);
 }
 
 .mail-link:hover,
@@ -72,9 +73,9 @@ body {
     font-family: 'Roboto', sans-serif;;
     font-weight: 500;
     font-size: 14px;
-    line-height: 1,14;
+    line-height: 1.14;
     letter-spacing: 0.02em;
-    color: #757575;
+    color: var(--third-accent-color);
 }
 
 .tel-link:hover,
@@ -90,7 +91,7 @@ body {
 .title-main-section {
     font-weight: 900;
     font-size: 44px;
-    line-height: 1,5;
+    line-height: 1.5;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
@@ -115,7 +116,7 @@ body {
 
 .modal-btn:hover,
 modal-btn:focus {
-    color: #ffffff;
+    color: var(--second-accent-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
 }
@@ -124,23 +125,23 @@ modal-btn:focus {
 .advantages-menu-item-title {
     font-weight: 700;
     font-size: 14px;
-    line-height: 1,14;
+    line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
 .advantages-menu-item-text {
     font-size: 14px;
-    line-height: 1,71;
+    line-height: 1.71;
     letter-spacing: 0.03em;
-    columns: var(--third-main-color);
+    color: var(--third-accent-color);
 }
 
 /* Activity */
 .activity-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
 }
@@ -151,9 +152,9 @@ modal-btn:focus {
 }
 
 .team-title {
-    font-weight: 7000;
+    font-weight: 700;
     font-size: 36px;
-    line-height: 1,67;
+    line-height: 1.67;
     text-align: center;
     letter-spacing: 0.03em;
 }
@@ -161,17 +162,17 @@ modal-btn:focus {
 .team-name {
     font-weight: 500;
     font-size: 16px;
-    line-height: 1,19;
+    line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
 }
 
 .team-prof {
     font-size: 16px;
-    line-height: 1,19;
+    line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
-    color: var(--third-main-color);
+    color: var(--third-accent-color);
 }
 
 
@@ -184,7 +185,7 @@ modal-btn:focus {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
-    line-height: 1,19;
+    line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--second-accent-color);
 }
@@ -193,47 +194,48 @@ modal-btn:focus {
     font-style: normal;
 }
 
-.footer-address-addres {
+.footer-address-address {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 1,71;
+    line-height: 1.71;
     letter-spacing: 0.03em;
-    color: var(--second-accent-color);
+    color: var(--second-accent-color)
 }
 
 
 .footer-address-mail {
     font-size: 14px;
-    line-height: 1,71;
+    line-height: 1.71;
     letter-spacing: 0.03em;
-    color: var(--second-accent-color);
+    color: var(--footer-tel-mail);
 
 }
 
 .footer-address-mail:hover,
 .footer-address-mail:focus {
-    color: var(--third-main-color);
+    color: var(--second-accent-color);
 }
 
 .footer-address-tel {
     font-size: 14px;
-    line-height: 1,71;
+    line-height: 1.71;
     letter-spacing: 0.03em;
-    color: var(--second-accent-color);
+    color: var(--footer-tel-mail);
 }
 
 .footer-address-tel:hover,
 .footer-address-tel:focus {
-    color: var(--third-main-color);
+    color: var(--second-accent-color);
 }
 
 /* Portfolio */
 .modal-btn-portfolio {
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1,6;
+    line-height: 1.6;
     text-align: center;
     letter-spacing: 0.03em;
     background-color: var(--team-background);
@@ -258,7 +260,7 @@ modal-btn:focus {
 
 .portfolio-options-menu-item-text {
     font-size: 16px;
-    line-height: 1,88;
+    line-height: 1.88;
     letter-spacing: 0.03em;
-    color: var(--third-main-color);
+    color: var(--third-accent-color);
 }
